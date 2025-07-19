@@ -51,6 +51,46 @@ export default function About() {
                                 <MapPin size={20} className="text-accent" />
                                 <span>{personalInfo.location}</span>
                             </div>
+
+                            <div className="flex items-center gap-3 text-foreground-secondary">
+                                <GraduationCap
+                                    size={20}
+                                    className="text-accent"
+                                />
+                                <span>
+                                    Uskudar American Academy - Anatolian High
+                                    School Diploma (GPA: 96.29/100)
+                                </span>
+                            </div>
+                        </div>
+
+                        {/* Achievements */}
+                        <div className="space-y-4">
+                            <h4 className="font-semibold text-foreground text-lg">
+                                Key Achievements
+                            </h4>
+                            <ul className="space-y-2 text-foreground-secondary text-sm">
+                                <li className="flex items-start gap-2">
+                                    <span className="text-accent mt-1.5 w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0" />
+                                    Founding Member and Treasurer of UCL Game
+                                    Development Society
+                                </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="text-accent mt-1.5 w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0" />
+                                    Treasurer of UCL Turkish Society
+                                </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="text-accent mt-1.5 w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0" />
+                                    President of Coding and Game Design Club at
+                                    Uskudar American Academy
+                                </li>
+                                <li className="flex items-start gap-2">
+                                    <span className="text-accent mt-1.5 w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0" />
+                                    5/5 in AP Calculus BC, CS A, Statistics,
+                                    Chemistry, Mechanics, Electricity &
+                                    Magnetism, Macro & Microeconomics
+                                </li>
+                            </ul>
                         </div>
 
                         {/* Fun Fact */}
@@ -91,14 +131,14 @@ export default function About() {
                                 {[
                                     {
                                         label: "Years of Experience",
-                                        value: "3+",
+                                        value: "2+",
                                     },
                                     {
                                         label: "Projects Completed",
-                                        value: "15+",
+                                        value: "6+",
                                     },
-                                    { label: "Technologies", value: "20+" },
-                                    { label: "Open Source", value: "Active" },
+                                    { label: "Technologies", value: "15+" },
+                                    { label: "AP Exams", value: "7/7" },
                                 ].map((stat, index) => (
                                     <motion.div
                                         key={stat.label}

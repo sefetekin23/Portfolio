@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Send, MapPin } from "lucide-react";
+import { Mail, Github, Linkedin, Send, MapPin, Phone } from "lucide-react";
 import { personalInfo } from "@/data/portfolio";
 
 export default function Contact() {
@@ -66,6 +66,24 @@ export default function Contact() {
                             </motion.a>
 
                             <motion.a
+                                href={`tel:${personalInfo.phone}`}
+                                whileHover={{ scale: 1.02 }}
+                                className="flex items-center gap-4 p-4 glass rounded-lg hover:bg-accent/10 transition-all duration-200 group"
+                            >
+                                <div className="p-3 bg-accent/10 rounded-lg group-hover:bg-accent/20 transition-colors duration-200">
+                                    <Phone size={20} className="text-accent" />
+                                </div>
+                                <div>
+                                    <p className="font-medium text-foreground">
+                                        Phone
+                                    </p>
+                                    <p className="text-foreground-secondary text-sm">
+                                        {personalInfo.phone}
+                                    </p>
+                                </div>
+                            </motion.a>
+
+                            <motion.a
                                 href={personalInfo.github}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -80,7 +98,7 @@ export default function Contact() {
                                         GitHub
                                     </p>
                                     <p className="text-foreground-secondary text-sm">
-                                        github.com/servetefetekin
+                                        github.com/sefetekin23
                                     </p>
                                 </div>
                             </motion.a>
@@ -103,7 +121,7 @@ export default function Contact() {
                                         LinkedIn
                                     </p>
                                     <p className="text-foreground-secondary text-sm">
-                                        linkedin.com/in/servetefetekin
+                                        linkedin.com/in/efe-tekin
                                     </p>
                                 </div>
                             </motion.a>
