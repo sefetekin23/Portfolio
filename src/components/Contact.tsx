@@ -35,11 +35,11 @@ export default function Contact() {
                     >
                         <div>
                             <h3 className="text-2xl font-bold text-foreground mb-6">
-                                Let's Connect
+                                Let&apos;s Connect
                             </h3>
                             <p className="text-foreground-secondary leading-relaxed mb-8">
-                                I'm always interested in new opportunities and
-                                collaborations. Whether you have a question,
+                                I&apos;m always interested in new opportunities
+                                and collaborations. Whether you have a question,
                                 want to discuss a project, or just want to say
                                 hello, feel free to reach out!
                             </p>

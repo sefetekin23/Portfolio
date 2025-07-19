@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Calendar, MapPin, ExternalLink } from "lucide-react";
+import { Calendar, ExternalLink } from "lucide-react";
 import { internships } from "@/data/portfolio";
 
 export default function Experience() {
