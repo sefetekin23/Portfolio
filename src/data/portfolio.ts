@@ -190,13 +190,13 @@ export const personalInfo = {
     name: "Servet Efe Tekin",
     tagline: "2nd Year CS Student @UCL • Software Engineer • Tech Enthusiast",
     subtitle: "Building accessible tech. Exploring the future.",
-    about: `I'm a Second-Year BSc Computer Science student at University College London (UCL) with a minor in Mathematics, 
-    achieving a 1st Class standing (74.3%). Originally from Istanbul, Turkey, I'm passionate about software engineering 
-    and making people's lives easier through technology. I'm a founding member and treasurer of the UCL Game Development 
+    about: `I&apos;m a Second-Year BSc Computer Science student at University College London (UCL) with a minor in Mathematics, 
+    achieving a 1st Class standing (74.3%). Originally from Istanbul, Turkey, I&apos;m passionate about software engineering 
+    and making people&apos;s lives easier through technology. I&apos;m a founding member and treasurer of the UCL Game Development 
     Society, and treasurer of the Turkish Society. My experience spans from high-frequency trading systems at Squarepoint 
     Capital to accessible web development at Avanade.`,
     funFact:
-        "I've been playing video games for years - not just for fun, but for the knowledge they provide. They've been my gateway into computer science!",
+        "I&apos;ve been playing video games for years - not just for fun, but for the knowledge they provide. They&apos;ve been my gateway into computer science!",
     education:
         "BSc Computer Science (1st Class, 74.3%), Minor in Mathematics, University College London (UCL)",
     location: "London, UK",
